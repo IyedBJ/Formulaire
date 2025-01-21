@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="process_form.php" method="post">
+    <h1>Formulaire</h1>
+    <div class="name">
+      <label for="fname">Prenom :</label>
+      <input type="text" id="fname"><br>
+      <label for="lname">Nom :</label>
+      <input type="text" id="lname">
+    </div>
+    <div class="email">
+      <label for="email">Adresse email :</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="mdp">
+      <label for="mdp">Mot de passe :</label>
+      <input type="password" id="mdp">
+    </div>
+    <div class="birthday">
+      <label for="birthday">Date de naissance :</label>
+      <input type="date">
+    </div>
+    <div class="genre">
+      <p>Genre :</p>
+      
+      <label for="male">
+        <input type="radio" id="male" name="genre"> Homme</label>
+      
+      <label for="female">
+        <input type="radio" id="female" name="genre"> Femme
+      </label>
+    </div>
+    <div class="pays">
+      <p>Pays :</p>
+      <select name="pays" id="pays">
+        <option value="" selected disabled>Select a country</option>
+        <option value="Tunisia">Tunisia</option>
+        <option value="France">France</option>
+        <option value="Canada">Canada</option>
+        <option value="Allemagne">Allemagne</option>
+      </select>
+    </div>
+    <div class="conditions">
+      <input type="checkbox" name="conditions" id="">
+      <label for="conditions">I accept all conditions</label>
+      
+    </div>
+    <div>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="4" placeholder="Écrivez votre message ici..."></textarea>
+    </div>
+    <div class="bts">
+      <button>Soumettre</button>
+      <button>Réinitialiser</button>
+    </div>
+
+  </form>
+
+
+
+
+  <script src="file.js"></script>
+</body>
+</html>

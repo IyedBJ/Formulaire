@@ -1,0 +1,95 @@
+body {
+  background-color: #3B6790;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  margin-right: 10px;
+  font-size: 16px;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.bts {
+  text-align: center;
+}
+
+.conditions {
+  margin-bottom: 15px;
+}
+
+.conditions label {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.pays {
+  margin-bottom: 15px;
+}
+
+.genre label {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 55px;
+  resize: none;
+}
+h1{
+  margin-top: 100px;
+  text-align: center;
+  color: #EFB036;
+}
